@@ -1,6 +1,20 @@
 # homeassistant-oekofen
-Oekofen HomeAssistant integration
+Oekofen HomeAssistant integration via [oekofen-api](https://github.com/ckarrie/oekofen-api)
 
+# Disclaimer
+**Use at own risk**
+
+# Installation
+
+- add repository `https://github.com/ckarrie/homeassistant-oekofen` in your HACS
+- restart HomeAssistant
+- add integration
+
+# ToDo
+
+- add `sk` domain (solar)
+- add csv log support (`http://192.168.178.222:4321/PASSWORD/log`)
+- allow user to choose domains to update (device config)
 
 ## Developement
 
